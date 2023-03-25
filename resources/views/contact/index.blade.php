@@ -1,4 +1,6 @@
-{{ $title = "Contact" }}
+@php
+    Request::is('contact');
+@endphp
 
 @extends('master')
 @section("content")

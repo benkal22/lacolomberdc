@@ -20,9 +20,8 @@
             <h4>Liens favoris</h4>
             <ul>
                 <li><a class="nav-link scrollto active" href="accueil">Accueil</a></li>
-                <li class="dropdown"><a href="#projets"><span>Projets et zones d'interventions</span> <i class="bi bi-chevron-down"></i></a>
-                </li>
-                <li><a class="nav-link scrollto" href="actualite">Actualités</a></li>
+                <li><a class="nav-link scrollto active" href="projets">Projets et zones d'interventions</a></li>
+                <li><a class="nav-link scrollto" href="actualites">Actualités</a></li>
                 <li><a class="nav-link scrollto" href="apropos">A propos</a></li>
                 <li><a class="nav-link scrollto" href="contact">Nous contacter</a></li>
               </ul>
@@ -31,11 +30,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nos projets</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 1</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 2</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 3</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 4</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 5</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projets">Distribution alimentaire</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projets">Création de centres de formations</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projets">Collecte de vêtements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="projets">Forage de puits</a></li>
+              {{-- <li><i class="bx bx-chevron-right"></i> <a href="#">Projet 5</a></li> --}}
             </ul>
           </div>
 
@@ -67,7 +66,7 @@
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100090974634310" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
         {{-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> --}}
         {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
         {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}

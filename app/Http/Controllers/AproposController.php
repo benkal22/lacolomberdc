@@ -4,13 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Models\Apropos;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 class AproposController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(): View
     {
         return view('apropos.index');
         

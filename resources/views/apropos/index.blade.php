@@ -1,32 +1,34 @@
-{{ $title = "A propos" }}
-
+@php
+    Request::is('apropos');
+@endphp
 @extends('master')
 
 @section("content")
-
  <!-- ======= Apropos Section ======= -->
- <section id="" class="d-flex align-items-center mt-5">
-    <div class="container">
-      <h1>mission la colombe</h1>
-      <div class="row">
-        <div class="col-8">
-            <h6>Notre but</h6>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facere totam cum, officia numquam vel sunt ullam a quas molestias, reprehenderit fugit quia quibusdam inventore illo animi sed placeat velit?</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt omnis sapiente modi consectetur aut blanditiis laboriosam vero impedit tempore delectus, et eligendi fugiat adipisci ex nostrum alias ducimus dolor esse.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic impedit dolores perferendis accusamus accusantium veritatis, exercitationem ab! Perferendis id ad similique eaque! Alias quibusdam adipisci repellendus explicabo tenetur nesciunt ipsam.
-            </p>
+ <section id="projets" class="projets">
+  <div class="container">
+    <div class="section-title my-4">
+      <h2>Qui sommes-nous ?</h2>
+    </div>
+    <div class="row">
+      <h2>Nous améliorons la condition des vies de la population congolaise.</h2>
+      <div class="col-8">
+        <h3>Nos objectifs spécifiques s'articulent autour des points suivants : </h3>
+        <p>- Former les acteurs de développement à tous les niveaux ;</p>
+        <p>- Développer les activités génératrices de revenus ; </p>
+        <p>- Appuyer les initiatives communautaires de développement à la base ;</p>
+        <p>- Appuyer les activités des soins de santé primaires et celle de la lutte contre le VIH/SIDA ;</p>
+        <p>- Etc.</p>
+      </div>
+      <div class="col-4">
+        <div class="content">
+            <picture>
+                <source srcset="" type="image/svg+xml">
+                    <a href="https://www.freepik.com/free-photo/diverse-hands-touching-white-paper_13463057.htm#query=about&position=16&from_view=search&track=sph"></a>
+                <img src="/assets/img/apropos/apropos1.jpg" class="img-fluid img-thumbnail" alt="...">
+              </picture>
+          </div>
         </div>
-
-        <div class="col-4">
-            <div class="content">
-                <picture>
-                    <source srcset="" type="image/svg+xml">
-                        <a href="https://www.freepik.com/free-photo/diverse-hands-touching-white-paper_13463057.htm#query=about&position=16&from_view=search&track=sph"></a>
-                    <img src="/assets/img/apropos/apropos1.jpg" class="img-fluid img-thumbnail" alt="...">
-                  </picture>
-              </div>
-        </div>
-
       </div>
     </div>
   </section><!-- End Apropos -->

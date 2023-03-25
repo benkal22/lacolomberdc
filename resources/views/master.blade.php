@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fondation La Colombe - {{ $title_cur = isset($title) ? $title : "Fondation La Colombe"}}</title>
+    <title>{{ config('app.name') }} - @yield('title', 'Otherwise, DEFAULT here') </title>
      <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -48,7 +48,7 @@
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100090974634310" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
         {{-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> --}}
       </div>
@@ -65,32 +65,25 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a {{ $title=="Accueil" ? "class=active nav-link scrollto" : ""}} href="/">Accueil</a></li>
-          <li class="dropdown"><a href="projets"><span>Projets et zones d'interventions</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="{{ isActive('/') }} nav-link scrollto" href="/">Accueil</a></li>
+          <li><a class="{{ isActive('projets') }} nav-link scrollto" href="projets">Projets et zones d'interventions</a></li>
+          
+          {{-- <li class="dropdown"><a class="{{ isActive('projets') }} nav-link scrollto" href="projets"><span>Projets et zones d'interventions</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="projets">Distribution alimentaire</a></li>
+              <li><a href="projets">Création de centres de formations</a></li>
+              <li><a href="projets"> Collecte de vêtements</a></li>
+              <li><a href="projets">Forage de puits</a></li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#actualite">Actualités</a></li>
-          <li><a {{ $title=="A propos" ? "class=active nav-link scrollto" : ""}} href="apropos">A propos</a></li>
-          <li><a {{ $title=="Contact" ? "class=active nav-link scrollto" : ""}} href="contact">Nous contacter</a></li>
+          </li> --}}
+          <li><a class="{{ isActive('actualites') }} nav-link scrollto" href="{{ route('actualites') }}">Actualités</a></li>
+          <li><a class="{{ isActive('apropos') }} nav-link scrollto" href="apropos">A propos</a></li>
+          <li><a class="{{ isActive('contact') }} nav-link scrollto" href="{{ route('contact.index') }}">Nous contacter</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#don" class="appointment-btn scrollto"><span class="d-none d-md-inline">Faire un</span>don</a>
+      <a href="{{ route('don') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline">Faire un don</span></a>
 
     </div>
   </header><!-- End Header -->
