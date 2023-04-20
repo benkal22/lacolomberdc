@@ -1,0 +1,121 @@
+{
+  "resources/js/app.css": {
+    "file": "assets/app-6d9fd7e4.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "assets": [
+      "assets/fa-brands-400-f4617423.woff2",
+      "assets/fa-brands-400-2ef6fdde.ttf",
+      "assets/fa-regular-400-7ba24c41.woff2",
+      "assets/fa-regular-400-12dea17b.ttf",
+      "assets/fa-solid-900-e2c5cf54.woff2",
+      "assets/fa-solid-900-67a880b4.ttf",
+      "assets/fa-v4compatibility-7c377405.woff2",
+      "assets/fa-v4compatibility-8d9500e8.ttf",
+      "assets/bootstrap-icons-966620f9.woff2",
+      "assets/bootstrap-icons-c6569d46.woff",
+      "assets/boxicons-c23887bb.eot",
+      "assets/boxicons-4b87cbc7.woff2",
+      "assets/boxicons-d5d511cf.woff",
+      "assets/boxicons-47509a2d.ttf",
+      "assets/boxicons-3fe502d8.svg",
+      "assets/remixicon-64bb3a0f.eot",
+      "assets/remixicon-e61f0d10.woff2",
+      "assets/remixicon-c2dacfbc.woff",
+      "assets/remixicon-0ac8bc3c.ttf",
+      "assets/remixicon-a10268fe.svg"
+    ],
+    "css": [
+      "assets/app-6d9fd7e4.css"
+    ],
+    "file": "assets/app-741ee1c3.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-f598f09a.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  },
+  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-c6569d46.woff",
+    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
+  },
+  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-966620f9.woff2",
+    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.eot": {
+    "file": "assets/boxicons-c23887bb.eot",
+    "src": "resources/vendor/boxicons/fonts/boxicons.eot"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.svg": {
+    "file": "assets/boxicons-3fe502d8.svg",
+    "src": "resources/vendor/boxicons/fonts/boxicons.svg"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.ttf": {
+    "file": "assets/boxicons-47509a2d.ttf",
+    "src": "resources/vendor/boxicons/fonts/boxicons.ttf"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.woff": {
+    "file": "assets/boxicons-d5d511cf.woff",
+    "src": "resources/vendor/boxicons/fonts/boxicons.woff"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.woff2": {
+    "file": "assets/boxicons-4b87cbc7.woff2",
+    "src": "resources/vendor/boxicons/fonts/boxicons.woff2"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-2ef6fdde.ttf",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-f4617423.woff2",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-12dea17b.ttf",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-7ba24c41.woff2",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-67a880b4.ttf",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-e2c5cf54.woff2",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-8d9500e8.ttf",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "resources/vendor/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-7c377405.woff2",
+    "src": "resources/vendor/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/vendor/remixicon/remixicon.eot": {
+    "file": "assets/remixicon-64bb3a0f.eot",
+    "src": "resources/vendor/remixicon/remixicon.eot"
+  },
+  "resources/vendor/remixicon/remixicon.svg": {
+    "file": "assets/remixicon-a10268fe.svg",
+    "src": "resources/vendor/remixicon/remixicon.svg"
+  },
+  "resources/vendor/remixicon/remixicon.ttf": {
+    "file": "assets/remixicon-0ac8bc3c.ttf",
+    "src": "resources/vendor/remixicon/remixicon.ttf"
+  },
+  "resources/vendor/remixicon/remixicon.woff": {
+    "file": "assets/remixicon-c2dacfbc.woff",
+    "src": "resources/vendor/remixicon/remixicon.woff"
+  },
+  "resources/vendor/remixicon/remixicon.woff2": {
+    "file": "assets/remixicon-e61f0d10.woff2",
+    "src": "resources/vendor/remixicon/remixicon.woff2"
+  }
+}
